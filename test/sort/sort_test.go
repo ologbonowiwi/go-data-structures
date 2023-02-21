@@ -38,3 +38,7 @@ func TestBubbleSort(t *testing.T) {
 func TestQuickSort(t *testing.T) {
 	checkSorting(t, sort.QuickSort, "QuickSort")
 }
+
+func TestMergeSort(t *testing.T) {
+	checkSorting(t, sort.MergeSort, "MergeSort")
+}
