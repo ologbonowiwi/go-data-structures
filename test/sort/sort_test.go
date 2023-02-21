@@ -34,3 +34,7 @@ func checkSorting(t *testing.T, sortFunc func([]int), name string) {
 func TestBubbleSort(t *testing.T) {
 	checkSorting(t, sort.BubbleSort, "BubbleSort")
 }
+
+func TestQuickSort(t *testing.T) {
+	checkSorting(t, sort.QuickSort, "QuickSort")
+}
